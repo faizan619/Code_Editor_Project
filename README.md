@@ -1,13 +1,13 @@
 
 # Code Editor Project
 
-CodeMirror Latest Documentation
-[- Click](https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup)
+***CodeMirror Latest Documentation***
+[- https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup](https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup)
 
 ***
 # Installation:
-##### To install the code editor, you need to clone this repository and run it on your local machine using any web server.
-##### Your Device Should Have Node Installed of LTS 16+ Version
+##### *To install the code editor, you need to clone this repository and run it on your local machine using any web server.*
+##### *Your Device Should Have Node Installed of LTS 16+ Version*
     
     1.Go to Terminal    
 
@@ -24,5 +24,6 @@ CodeMirror Latest Documentation
 ***
 # Reference Links:
     
-    1.https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup
+    1.https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup  
+    2.https://www.codemirror.net  
 ___
