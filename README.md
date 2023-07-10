@@ -16,10 +16,10 @@ CodeMirror Latest Documentation
     5.Open The Given Link in Browser    
 ***
 # SDLC : 
-    - [x]Topic Selection
-    - [ ]Resource Gathering
-    - [ ]Design
-    - [ ]Soon...
+    [x]Topic Selection
+    [ ]Resource Gathering
+    [ ]Design
+    [ ]Soon...
 ___
 # Reference Links:
     
