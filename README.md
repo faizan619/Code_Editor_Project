@@ -17,8 +17,10 @@ CodeMirror Latest Documentation
 
     4.npm run dev    
 
-    5.Open The Given Link in Browser    
-    
+    5.Open Web Browser    
+
+    6.https://www.localhost:127.0.0.1:5173
+
 ***
 # Reference Links:
     
