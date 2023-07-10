@@ -1,4 +1,4 @@
-<div class="main">
+
     <h1>Code Editor project</h1>
     <p>
         CodeMirror latest Documentation
@@ -16,5 +16,3 @@
 
     </ol>
     <mark>Your Device Should Have Node Installed of LTS 16+ Version</mark>
-
-</div>
