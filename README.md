@@ -1,1 +1,1 @@
-ECHO is on.
++Code Editor project
