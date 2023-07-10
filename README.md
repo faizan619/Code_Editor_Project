@@ -15,6 +15,12 @@ CodeMirror Latest Documentation
     4.npm run dev    
     5.Open The Given Link in Browser    
 ***
+# SDLC : 
+    - [x] Topic Selection
+    - [ ] Resource Gathering
+    - [ ] Design
+    - [ ] Soon...
+___
 # Reference Links:
     
     1.https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup
