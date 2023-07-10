@@ -1,9 +1,8 @@
 
-    <h1>Code Editor project</h1>
-    <p>
-        CodeMirror latest Documentation
-        <a href="https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup"> Click</a>
-    </p>
+#Code Editor Project
+
+CodeMirror Latest Documentation
+[Click] (https://uiwjs.github.io/react-codemirror/#/extensions/basic-setup)
     
     <h1>Installation:</h1>
     <p>To install the code editor, you need to clone this repository and run it on your local machine using any web server. </p>
