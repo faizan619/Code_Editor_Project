@@ -8,6 +8,7 @@ CodeMirror Latest Documentation
 
 # Installation:
 ##### To install the code editor, you need to clone this repository and run it on your local machine using any web server.
+##### Your Device Should Have Node Installed of LTS 16+ Version
     
     1.Go to Terminal  
     2.git clone https://github.com/faizan619/Code_Editor_Project.git  
@@ -16,6 +17,5 @@ CodeMirror Latest Documentation
     5.Open The Given Link in Browser  
 
     Note : 
-# Your Device Should Have Node Installed of LTS 16+ Version
 
 ***
