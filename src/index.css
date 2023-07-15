@@ -3,75 +3,147 @@
     padding: 0;
     box-sizing: border-box;
 }
-.section{
+
+/*======================================================
+
+Error Page Designing...
+
+=======================================================*/
+
+.errorContainer{
+    background-color: rgba(0, 0, 0, 0.9);
+    background: url(../public/wallpaper.jpeg) bottom/cover no-repeat;
+    color: #f3f3f3;
     height: 100vh;
-}
-.mainContainer{
-    height: 100vh;
-    /* background-color: rgba(0, 0, 0, 0.900); */
-    /* color: rgba(255, 255, 255, 0.900); */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+}
+.astronauthImg{
+    height: 15rem;
+    rotate: 70deg;
+}
+.astronauth{
+    position: absolute;
+    top: 20%;
+    left: 7%;
 
 }
 
-/* =================================================
-
-First Section Designing
-
-====================================================*/
-
-.title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150%;
-}
-.firstsection{
+.ErrorContent{
     text-align: center;
-    background: url(../src/Components/Assets/blackring.jpg) bottom/center no-repeat;
+    line-height: 3rem;
 }
-.para{
-    font-size: 30%;
-    /* border: 1px solid red; */
+.pnf2{
+    font-size: 3rem;
 }
-.btn{
-    padding: .3rem 1rem;
-    border-radius: .3rem;
+.pnf3{
+    font-size: 5rem;
+    line-height: 7rem;
+}
+.autro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*================================================
 
+Menu Page Designing...
+
+=================================================*/
 
 .header{
-    height: 20rem;
     display: flex;
-    flex-flow: row wrap;
-    background-color: black;
-    height: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: .1rem 1rem;
+    /* position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+.listNav{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 3rem;
+}
+.image{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.header .image{
-    background-size: cover;
-    width: 20%;
+.listNav li:hover{
+    border-bottom: 1px solid white;
+}
+.listNav li{
+    padding: .3rem 1rem;
+    list-style: none;
 }
 .linkNav{
     color: white;
     text-decoration: none;
-}
-.header ol li{
-    border: 1px solid transparent;
-}
-.header ol{
     font-size: 1.5rem;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    color: white;
-    gap:1.5rem;
-    width: 80%;
 }
 .active{
-    color: red;
-    border-bottom: 1px solid red;
+    color: lightpink;
+}
+button:hover{
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+button{
+    padding: .3rem 1rem;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    transition:.2s ease all;
+}
+/*===============================================
+
+Home Page Designing...
+
+=================================================*/
+
+.mainContainer{
+    background: url('/public/backgroundgif.gif') center/cover no-repeat;
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.firstsectiontitle{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.firstSectionPara{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.firstsection{
+    /* background: url('/public/wallpaper.jpeg'); */
+    background-color: rgba(0, 0, 0, 0.653);
+    border-radius: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 60%;
+}
+.codeEditor:hover .linkNavFirstSection{
+    color: white;
+}
+.linkNavFirstSection{
+    color: black;
+    text-decoration: none;
 }
