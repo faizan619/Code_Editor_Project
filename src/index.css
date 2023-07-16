@@ -189,6 +189,7 @@ Home Page Designing...
 
 Coding Page Designing...
 
+
 =================================================*/
 
 .codeContainer{
@@ -240,4 +241,99 @@ center{
     padding: 1rem;
     background-color: gray;
     height: 40vh;
+}
+
+
+
+/*===============================================
+
+Room Page Designing...
+
+
+=================================================*/
+
+body{
+    margin: 0;
+    background-color: #1c1e29;
+}
+.homePageWrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.formWrapper{
+    background-color: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: #4d7c86;
+}
+footer h4{
+    margin: 1rem;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+}
+.mainLabel{
+    margin: 20px;
+    margin-top: 0;
+}
+.homePageLogo{
+    height: 80px;
+    margin-bottom: 30px;
+}
+.inputBox{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:.3s ease-in-out all ;
+}
+.joinBtn:hover{
+    background: #2b824c;
+    border: 0;
+}
+.joinBtn{
+    background: #4aed88;
+    width: 100px;
+    margin-left: auto;
+}
+.createInfo{
+    margin-top: 0 auto;
+    margin-top: 20px;
+
+}
+.createNewBtn:hover,footer a:hover{
+    color: #368654;
+    border-color: #368654;
+}
+.createNewBtn{
+    color: #4aed88;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-bottom: 1px solid 4aed88 ;
+    transition: all ease-in-out .5s;
 }
