@@ -24,10 +24,6 @@ export default function CodeEditor() {
           value="console.log(Hello world);"
           height="90vh"
           basicSetup={{
-            foldGutter: false,
-          dropCursor: false,
-          allowMultipleSelections: false,
-          indentOnInput: false,
           }}
         />
       </div>

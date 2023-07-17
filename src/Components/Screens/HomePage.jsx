@@ -13,6 +13,7 @@ export default function HomePage() {
             <div className="btngrpHome">
               <button className="btn codeEditor"><NavLink className="linkNavFirstSection" to='codeeditor'>Code Editor</NavLink></button>
               <button className="btn codeEditor"><NavLink className='linkNavFirstSection' to='room'>Collab Coding</NavLink></button>
+              {/* <button className="btn codeEditor"><NavLink className='linkNavFirstSection' to='testedit'>Testing Playground</NavLink></button> */}
             </div>
         </section>
         </div>

@@ -8,6 +8,8 @@ import CodeEditor from "./Screens/CodeEditor"
 import Editor from "./Screens/Collaborative/Editor"
 import Room from "./Screens/Collaborative/room"
 import { Toaster } from "react-hot-toast"
+// import TestEdit from "./TestEdit"
+
 
 export default function App() {
   return (
@@ -30,6 +32,7 @@ export default function App() {
       <Route path="codeeditor" element={<CodeEditor/>}/>
       <Route path="*" element={<ErrorPage/>}/>
       <Route path="room" element={<Room/>}></Route>
+      {/* <Route path="testedit" element={<TestEdit/>}></Route> */}
       <Route path="/editor/:roomId" element={<Editor/>}></Route>
     </Routes>
     </BrowserRouter>

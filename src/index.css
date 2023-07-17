@@ -331,7 +331,7 @@ footer h4{
     cursor: pointer;
     transition:.3s ease-in-out all ;
 }
-.joinBtn:hover{
+.joinBtn:hover,.leaveBtn:hover{
     background: #2b824c;
     border: 0;
 }
@@ -355,4 +355,58 @@ footer h4{
     font-size: 1.1em;
     border-bottom: 1px solid 4aed88 ;
     transition: all ease-in-out .5s;
+}
+
+
+/*===============================================
+
+CodeEditor Page Design
+
+================================================*/
+.mainWrap{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    background: #1c1e29;
+    padding: 16px;
+    color: white;
+}
+.asideInner{
+    flex: 1;
+}
+.client{
+    border: 1px solid red;
+    margin-top: .5rem;
+}
+.logo{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    /* width: 30px; */
+}
+.logoImage{
+    height: 70px;
+}
+.leaveBtn{
+    margin-top: 20px;
+    background-color: #4aed88;
+    width: 100%;
+}
+
+/*==================================================
+
+codemirror test-editor styling
+
+==================================================*/
+
+.testEditorWrapper{
+    height: 100vh;
+    padding: 1rem;
+}
+.testCodeMirror{
+    border-radius: 1rem;
+    overflow: hidden;
 }

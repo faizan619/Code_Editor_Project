@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -16,11 +18,19 @@
     "@uiw/codemirror-extensions-hyper-link": "^4.21.7",
     "@uiw/codemirror-extensions-line-numbers-relative": "^4.21.7",
     "@uiw/react-codemirror": "^4.21.7",
+    "codemirror": "^6.0.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.3.1",
+    "dotenv-webpack": "^8.0.1",
+    "express": "^4.18.2",
     "gsap": "^3.12.2",
     "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.14.1",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

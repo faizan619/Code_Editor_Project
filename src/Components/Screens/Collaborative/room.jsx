@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { v4 as uuidV4 } from "uuid";
 
-
+ 
 export default function Room() {
 
     const navigate = useNavigate();
@@ -28,8 +28,15 @@ export default function Room() {
             state: {
                 // userName : username
                 username,
-            }
-        })
+            },
+        });
+    }
+
+    const handleInputEnter = (e)=>{
+        // console.log('event',e.code);
+        if(e.code == 'Enter'){
+            joinRoom();
+        }
     }
 
   return (
@@ -39,8 +46,8 @@ export default function Room() {
                 <img className="homePageLogo" src="/hacker.jpeg" alt="Logo" />
                 <h4 className="mainLabel">Paste Invitation Room Id</h4>
                 <div className="inputGroup">
-                    <input type="text" className="inputBox" placeholder="ROOM ID" onChange={(e)=>setRoomId(e.target.value)} value={roomId} />
-                    <input type="text" className="inputBox" placeholder="USERNAME" onChange={(e)=>setusername(e.target.value)} value={username} />
+                    <input type="text" className="inputBox" placeholder="ROOM ID" onChange={(e)=>setRoomId(e.target.value)} value={roomId} onKeyUp={handleInputEnter} />
+                    <input type="text" className="inputBox" placeholder="USERNAME" onChange={(e)=>setusername(e.target.value)} value={username} onKeyUp={handleInputEnter} />
                     <button className="btn joinBtn" onClick={joinRoom}>JOIN</button>
                     <span className="createInfo">
                         If You dont have an invite then create &nbsp;
