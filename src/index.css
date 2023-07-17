@@ -148,8 +148,10 @@ Home Page Designing...
 =================================================*/
 
 .mainContainer{
-    background: url('/public/backgroundgif.gif') center/cover no-repeat;
+    /* background-color: #1c1e29; */
+    /* background-color: #001220; */
     /* border: 1px solid red; */
+    background: url('/public/blob-scene-haikei.png') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -159,6 +161,8 @@ Home Page Designing...
 }
 .firstsectiontitle{
     font-size: 3rem;
+    font-family: cursive;
+    color: #FBAE3C;
     margin: 1rem;
 }
 .firstSectionPara{
@@ -167,15 +171,30 @@ Home Page Designing...
 }
 .firstsection{
     /* background: url('/public/wallpaper.jpeg'); */
-    background-color: rgba(0, 0, 0, 0.653);
+    /* background-color: rgba(0, 0, 0, 0.653); */
+    /* background-color: #282a36; */
+    /* box-shadow: 1px 1px 1rem white; */
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 70%;
-    width: 60%;
+    min-height: 70%;
+    /* height: 70%; */
+    max-height: 100%;
+    /* width: 60%; */
+    /* max-width: 90%; */
+    width: 75%;
+}
+.codeEditor:hover{
+    /* background-color: #2b824c; */
+    background-color:#a77121;
+    border: 0;
+}
+.codeEditor{
+    background-color:#FBAE3C;
+    margin: 0 1rem;
 }
 .codeEditor:hover .linkNavFirstSection{
     color: white;
